@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.log
+build/
+dist/
+release/
+*.spec
+.venv/
+.build-env/
+.pytest_cache/
+
+# 실제 상담·자동저장·인증 정보
+*autosave*.json
+*recent*.json
+*password*.json
+consult_auto_settings.json
+error_log.txt
+
+# 사용자가 선택하거나 생성한 업무 파일
+data/
+output/
+exports/

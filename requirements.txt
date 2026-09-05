@@ -1,0 +1,6 @@
+pyinstaller
+pandas
+openpyxl
+xlrd
+msoffcrypto-tool
+pywin32; sys_platform == "win32"
